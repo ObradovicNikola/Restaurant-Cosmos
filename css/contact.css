@@ -1,0 +1,63 @@
+.container {
+  margin: 32px 0;
+  padding: 16px 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: top;
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+.container .info {
+  width: 40%;
+}
+
+@media screen and (max-width: 1400px) {
+  .content .container .info {
+    width: 100%;
+    max-width: 800px;
+    margin-top: 32px;
+  }
+}
+
+.container .info p {
+  margin-top: 32px;
+}
+
+input,
+textarea {
+  padding: 18px;
+  border: 0;
+  width: 100%;
+  font-size: 1rem;
+  background-color: #2d2d2d;
+  color: white;
+}
+
+input {
+  margin-bottom: 32px;
+}
+
+.container form textarea {
+  resize: none;
+  min-height: 15em;
+}
+
+input:focus,
+textarea:focus {
+  border: none;
+}
+
+form button {
+  float: right;
+  background-color: #99ffff;
+  padding: 8px 35px;
+  margin-top: 12px;
+  font-size: 1.4em;
+  cursor: pointer;
+  transition: all 0.4s ease;
+}
+
+form button:hover {
+  background: white;
+}

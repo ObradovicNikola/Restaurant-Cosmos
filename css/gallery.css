@@ -1,0 +1,25 @@
+/* justify-content: center; */
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.photo {
+  margin: 16px;
+  width: 260px;
+  height: 260px;
+  background: cyan;
+  overflow: hidden;
+  border-radius: 20%;
+}
+
+.photo img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.8s ease;
+}
+
+.photo:hover img {
+  transform: scale(1.5);
+}
