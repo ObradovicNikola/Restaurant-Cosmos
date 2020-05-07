@@ -1,196 +1,224 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1.0, minimum-scale=1"
-    />
-    <!-- minimum-scale=1, maximum-scale=1 -->
-    <!-- overflow on body and html elements is ignored -->
-    <!-- this ensures that user can't zoom out/in -->
-    <link rel="icon" href="img/favicon.svg" type="image/svg+xml" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"
-    />
-    <link rel="stylesheet" href="css/main.css" />
-    <link rel="stylesheet" href="css/menu.css" />
-    <title>Cosmos Restaurant | Menu</title>
-  </head>
-  <body>
-    <div class="main">
-      <header>
-        <div class="logo">
-          <a href="index.html">
-            <img style="width: 150px;" src="img/logo.svg" alt="logo" />
-          </a>
-        </div>
-        <nav>
-          <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="menu.html">Menu</a></li>
-            <li><a href="gallery.html">Gallery</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="contact.html">Contact us</a></li>
-          </ul>
-        </nav>
-        <div id="hamburger">
-          <span class="hamburger-inner"></span>
-        </div>
-      </header>
-      <div class="content">
-        <h1>Menu</h1>
-        <table>
-          <tr>
-            <th colspan="2"><h2>COSMOS - MENU</h2></th>
-            <th colspan="2">
-              <div class="call">
-                <p>Call us:</p>
-                <a href="tel:123-456-7890">123-456-7890</a>
-              </div>
-            </th>
-            <th colspan="2">
-              <div class="details">
-                <h2>WORK HOURS</h2>
-                <div class="time">
-                  <p>MON - FRI 8:00 - 22:00</p>
-                  <p>SAT 8:00 - 23:00</p>
-                  <p>SUN 8:00 - 14:00</p>
-                </div>
-              </div>
-            </th>
-          </tr>
-          <tr>
-            <td colspan="3"><h3>PIZZA</h3></td>
-            <td colspan="3"><h3>SALAD</h3></td>
-          </tr>
-          <tr>
-            <td colspan="2">
-              <div class="pizza">
-                <h3 class="title">Capricciosa</h3>
-                <p class="description">Ham, Mushroom, Artichoke, Tomato</p>
-              </div>
-            </td>
-            <td>6 &euro;</td>
-            <td colspan="2"><h3>Greek Salad</h3></td>
-            <td>3,2 &euro;</td>
-          </tr>
-          <tr>
-            <td colspan="2">
-              <div class="pizza">
-                <h3 class="title">Margherita</h3>
-                <p class="description">
-                  Marzano tomatoes, mozzarella cheese, fresh basil, salt and
-                  extra-virgin olive oil
-                </p>
-              </div>
-            </td>
-            <td>8 &euro;</td>
-            <td colspan="2">
-              <h3>Mixed Salad</h3>
-            </td>
-            <td>4 &euro;</td>
-          </tr>
-          <tr>
-            <td colspan="2">
-              <div class="pizza">
-                <h3 class="title">Hawaii</h3>
-                <p class="description">
-                  tomato sauce, mozzarella cheese, sliced ham, and pineapple
-                </p>
-              </div>
-            </td>
-            <td>8,2 &euro;</td>
-            <td colspan="2"><h3>Russian Salad</h3></td>
-            <td>3,4 &euro;</td>
-          </tr>
-          <tr>
-            <td colspan="2">
-              <div class="pizza">
-                <h3 class="title">Calzone</h3>
-                <p class="description">
-                  salted bread dough, salami, ham or vegetables, mozzarella
-                </p>
-              </div>
-            </td>
-            <td>9,99 &euro;</td>
-            <td colspan="2"><h3>Gado Salad</h3></td>
-            <td>4,99 &euro;</td>
-          </tr>
-          <tr>
-            <td colspan="3"><h3>DESERTS</h3></td>
-            <td colspan="3"><h3>DRINKS</h3></td>
-          </tr>
-          <tr>
-            <td colspan="2"><h3>Ice cream</h3></td>
-            <td>1,59 &euro;</td>
-            <td colspan="2"><h3>Coca Cola</h3></td>
-            <td>1,3 &euro;</td>
-          </tr>
-          <tr>
-            <td colspan="2"><h3>Pancake</h3></td>
-            <td>3,2 &euro;</td>
-            <td colspan="2"><h3>Wine</h3></td>
-            <td>4 &euro;</td>
-          </tr>
-          <tr>
-            <td colspan="2"><h3>Choco cake</h3></td>
-            <td>2,33 &euro;</td>
-            <td rowspan="2" colspan="2"><h3>Beer</h3></td>
-            <td>0.5l - 1,8 &euro;/td></td>
-          </tr>
-          <tr>
-            <td colspan="2"><h3>Muffin</h3></td>
-            <td>1,29 &euro;</td>
-            <td>1.5l 3,7 &euro;</td>
-          </tr>
-          <tr>
-            <td colspan="3">
-              <a href="email:contact@cosmos.com">contact@cosmos.com</a>
-            </td>
-            <td colspan="3"><h3>Cosmos Restaurant</h3></td>
-          </tr>
-        </table>
-        <a class="pdf" target="_blank" href="menu.pdf">View as pdf</a>
-      </div>
-    </div>
-    <footer>
-      <div class="footer-social">
-        <ul class="footer-social-list">
-          <li>
-            <a href="https://facebook.com"><i class="fab fa-facebook"></i></a>
-          </li>
-          <li>
-            <a href="https://twitter.com"><i class="fab fa-twitter"></i></a>
-          </li>
-          <li>
-            <a href="https://instagram.com"><i class="fab fa-instagram"></i></a>
-          </li>
-          <li>
-            <a href="https://github.com/ObradovicNikola"
-              ><i class="fab fa-github"></i
-            ></a>
-          </li>
-          <li>
-            <a href="https://www.linkedin.com/in/nikola-obradovic-1b4702180/"
-              ><i class="fab fa-linkedin"></i
-            ></a>
-          </li>
-          <li>
-            <a href="https://youtube.com"><i class="fab fa-youtube"></i></a>
-          </li>
-        </ul>
-      </div>
 
-      <div class="footer-legal">
-        <ul class="footer-legal-list">
-          <li><a href="terms_conditions.html">Terms &amp; Conditions</a></li>
-          <li><a href="privacy_policy.html">Privacy Policy</a></li>
-          <li>Restaurant Cosmos &copy; 2020</li>
-        </ul>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1" />
+  <!-- minimum-scale=1, maximum-scale=1 -->
+  <!-- overflow on body and html elements is ignored -->
+  <!-- this ensures that user can't zoom out/in -->
+  <link rel="icon" href="img/favicon.svg" type="image/svg+xml" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" />
+  <link rel="stylesheet" href="css/main.css" />
+  <link rel="stylesheet" href="css/menu.css" />
+  <title>Cosmos Restaurant | Menu</title>
+</head>
+
+<body>
+  <div class="main">
+    <header>
+      <div class="logo">
+        <a href="index.html">
+          <img style="width: 150px;" src="img/logo.svg" alt="logo" />
+        </a>
       </div>
-    </footer>
-  </body>
-  <script src="js/main.js"></script>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a style="color: #99ffff;" href="menu.html">Menu</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact us</a></li>
+        </ul>
+      </nav>
+      <div id="hamburger">
+        <span class="hamburger-inner"></span>
+      </div>
+    </header>
+    <div class="content">
+      <h1>Menu</h1>
+      <table>
+        <tr>
+          <th colspan="2">
+            <h2>COSMOS - MENU</h2>
+          </th>
+          <th colspan="2">
+            <div class="call">
+              <p>Call us:</p>
+              <a href="tel:123-456-7890">123-456-7890</a>
+            </div>
+          </th>
+          <th colspan="2">
+            <div class="details">
+              <h2>WORK HOURS</h2>
+              <div class="time">
+                <p>MON - FRI 8:00 - 22:00</p>
+                <p>SAT 8:00 - 23:00</p>
+                <p>SUN 8:00 - 14:00</p>
+              </div>
+            </div>
+          </th>
+        </tr>
+        <tr>
+          <td colspan="3">
+            <h3>PIZZA</h3>
+          </td>
+          <td colspan="3">
+            <h3>SALAD</h3>
+          </td>
+        </tr>
+        <tr>
+          <td colspan="2">
+            <div class="pizza">
+              <h3 class="title">Capricciosa</h3>
+              <p class="description">Ham, Mushroom, Artichoke, Tomato</p>
+            </div>
+          </td>
+          <td>6 &euro;</td>
+          <td colspan="2">
+            <h3>Greek Salad</h3>
+          </td>
+          <td>3,2 &euro;</td>
+        </tr>
+        <tr>
+          <td colspan="2">
+            <div class="pizza">
+              <h3 class="title">Margherita</h3>
+              <p class="description">
+                Marzano tomatoes, mozzarella cheese, fresh basil, salt and
+                extra-virgin olive oil
+              </p>
+            </div>
+          </td>
+          <td>8 &euro;</td>
+          <td colspan="2">
+            <h3>Mixed Salad</h3>
+          </td>
+          <td>4 &euro;</td>
+        </tr>
+        <tr>
+          <td colspan="2">
+            <div class="pizza">
+              <h3 class="title">Hawaii</h3>
+              <p class="description">
+                tomato sauce, mozzarella cheese, sliced ham, and pineapple
+              </p>
+            </div>
+          </td>
+          <td>8,2 &euro;</td>
+          <td colspan="2">
+            <h3>Russian Salad</h3>
+          </td>
+          <td>3,4 &euro;</td>
+        </tr>
+        <tr>
+          <td colspan="2">
+            <div class="pizza">
+              <h3 class="title">Calzone</h3>
+              <p class="description">
+                salted bread dough, salami, ham or vegetables, mozzarella
+              </p>
+            </div>
+          </td>
+          <td>9,99 &euro;</td>
+          <td colspan="2">
+            <h3>Gado Salad</h3>
+          </td>
+          <td>4,99 &euro;</td>
+        </tr>
+        <tr>
+          <td colspan="3">
+            <h3>DESERTS</h3>
+          </td>
+          <td colspan="3">
+            <h3>DRINKS</h3>
+          </td>
+        </tr>
+        <tr>
+          <td colspan="2">
+            <h3>Ice cream</h3>
+          </td>
+          <td>1,59 &euro;</td>
+          <td colspan="2">
+            <h3>Coca Cola</h3>
+          </td>
+          <td>1,3 &euro;</td>
+        </tr>
+        <tr>
+          <td colspan="2">
+            <h3>Pancake</h3>
+          </td>
+          <td>3,2 &euro;</td>
+          <td colspan="2">
+            <h3>Wine</h3>
+          </td>
+          <td>4 &euro;</td>
+        </tr>
+        <tr>
+          <td colspan="2">
+            <h3>Choco cake</h3>
+          </td>
+          <td>2,33 &euro;</td>
+          <td rowspan="2" colspan="2">
+            <h3>Beer</h3>
+          </td>
+          <td>0.5l - 1,8 &euro;/td></td>
+        </tr>
+        <tr>
+          <td colspan="2">
+            <h3>Muffin</h3>
+          </td>
+          <td>1,29 &euro;</td>
+          <td>1.5l 3,7 &euro;</td>
+        </tr>
+        <tr>
+          <td colspan="3">
+            <a href="email:contact@cosmos.com">contact@cosmos.com</a>
+          </td>
+          <td colspan="3">
+            <h3>Cosmos Restaurant</h3>
+          </td>
+        </tr>
+      </table>
+      <a class="pdf" target="_blank" href="menu.pdf">View as pdf</a>
+    </div>
+  </div>
+
+  <div id="scrollToTop"><i class="fas fa-arrow-up"></i></div>
+
+  <footer>
+    <div class="footer-social">
+      <ul class="footer-social-list">
+        <li>
+          <a href="https://facebook.com"><i class="fab fa-facebook"></i></a>
+        </li>
+        <li>
+          <a href="https://twitter.com"><i class="fab fa-twitter"></i></a>
+        </li>
+        <li>
+          <a href="https://instagram.com"><i class="fab fa-instagram"></i></a>
+        </li>
+        <li>
+          <a href="https://github.com/ObradovicNikola"><i class="fab fa-github"></i></a>
+        </li>
+        <li>
+          <a href="https://www.linkedin.com/in/nikola-obradovic-1b4702180/"><i class="fab fa-linkedin"></i></a>
+        </li>
+        <li>
+          <a href="https://youtube.com"><i class="fab fa-youtube"></i></a>
+        </li>
+      </ul>
+    </div>
+
+    <div class="footer-legal">
+      <ul class="footer-legal-list">
+        <li><a href="terms_conditions.html">Terms &amp; Conditions</a></li>
+        <li><a href="privacy_policy.html">Privacy Policy</a></li>
+        <li>Restaurant Cosmos &copy; 2020</li>
+      </ul>
+    </div>
+  </footer>
+</body>
+<script src="js/main.js"></script>
+
 </html>

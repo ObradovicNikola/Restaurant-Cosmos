@@ -48,15 +48,9 @@ textarea:focus {
   border: none;
 }
 
-form button {
-  float: right;
-  background-color: #99ffff;
-  padding: 8px 35px;
-  margin-top: 12px;
-  font-size: 1.4em;
-  cursor: pointer;
-  transition: all 0.4s ease;
-}
+/* INLINE STYLES */
+/* form button { */
+/* } */
 
 form button:hover {
   background: white;
